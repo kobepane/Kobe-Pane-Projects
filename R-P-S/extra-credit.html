@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="rps-ec.css">
+</head>
+<body>
+    
+    <div class="header">
+      <h1>Rock-Paper-Scissors Game</h1>
+      <h2>Click on any hand sign to play</h2>
+    </div>
+
+    <div class="main">
+        <button type="button" id="rock" onclick="play('rock')"><img src="images/rock.png" alt="rock"></button>
+        <button type="button" id="paper" onclick="play('paper')"><img src="images/paper.png" alt="paper"></button>
+        <button type="button" id="scissors" onclick="play('scissors')"><img src="images/scissors.png" alt="scissors"></button>
+    </div>
+    <br><br><br><br><br><br><br>
+
+        <h2 class="y">Result</h2>
+        <h2 class="y">Score</h2>
+
+    <div class="outcome">
+        <table id="resultTable">
+            <tr>
+                <th>Human</th>
+                <th>Computer</th>
+                <th>Wins</th>
+            </tr>
+            <tr>
+                <td class="dataOne" id="human"></td>
+                <td class="dataOne" id="computer"></td>
+                <td class="dataOne" id="wins"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="score">
+        <table id="scoreTable">
+            <tr class="row">
+                <td>Human</td>
+                <td>Computer</td>
+                <td>Draw</td>
+            </tr>
+            <tr class="row">
+                <td class="dataTwo" id="humanScore">0</td>
+                <td class="dataTwo" id="computerScore">0</td>
+                <td class="dataTwo" id="drawScore">0</td>
+            </tr>
+            <tr id="resetRow">
+                <td colspan="3"><button id="resetButton" onclick="resetScores()">Reset</button></td>
+            </tr>
+        </table>
+    </div> 
+
+    <script src="rps-ec.js"></script>
+</body>
+</html>
