@@ -1,0 +1,16 @@
+{
+  "name": "project-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cit381-assign08-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "mysql2": "^3.6.5"
+  }
+}
