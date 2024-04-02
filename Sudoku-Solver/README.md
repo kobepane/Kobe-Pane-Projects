@@ -1,6 +1,6 @@
 # Sudoku Solver
 
-A sudoku solver written in Python as a programming 
+A sudoku puzzle solver written in Python as a programming 
 project for CS 211 at the University of Oregon.
 
 Implemented constraint propagation to apply naked and hiddle single techniques to solve simple puzzles. Then added a recursive
