@@ -1,13 +1,12 @@
-# Sudoku
+# Sudoku Solver
 
-A solver for the classic puzzle, as a programming 
-project for CIS 211 at University of Oregon. 
+A sudoku solver written in Python as a programming 
+project for CS 211 at the University of Oregon.
 
-The project will have two phases.  In the first phase 
-we implement constraint propagation to solve simple 
-puzzles.  In the second phase we will add back-tracking
-search to solve harder puzzles. 
+Implemented constraint propagation to apply naked and hiddle single techniques to solve simple puzzles. Then added a recursive
+back-tracking/guess-and-check approach to solve even the most complex and difficult puzzles. Utilized object-oriented techniques,
+classes/objects, and recursion. 
 
-We will use a model-view-controller organization to 
-associate a graphical display with the game. 
+Used a model-view-controller (MVC) structure to 
+attach a graphical display to the game.  
 
